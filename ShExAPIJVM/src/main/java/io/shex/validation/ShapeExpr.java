@@ -1,5 +1,5 @@
 package io.shex.validation;
 
-public class ShapeExpr {
-
+public abstract class ShapeExpr {
+	public abstract ShapeExprLabel getLabel();
 }
